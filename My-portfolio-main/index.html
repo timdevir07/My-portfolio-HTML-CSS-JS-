@@ -13,12 +13,12 @@
             <div id="header">
                 <div class="container">
                   <nav>
-                    <div><h1 id="namer"><a href="index.html">it's Raju;</a></h1></div>
+                    <div><h1 id="namer"><a href="index.html">Raju kumar</a></h1></div>
                     <ul id="sidemenu">
                         <li><a href="index.html">Home</a></li> 
                         <li><a href="#about">About</a></li> 
                         <li><a href="#services">Services</a></li> 
-                        <li><a href="#portfolio">Portfolie</a></li> 
+                        <li><a href="#portfolio">Portfolio</a></li> 
                         <li><a href="#contact">Contact</a></li>
                         <div class="close"><i class="fas fa-times"onclick="closemenu()"></i></div>
                         </ul>
@@ -26,17 +26,17 @@
                         </nav>
                         <div class="header-text">
                             <!-- <p>Web and App Devloper</p> -->
-                            <h1>Hello <br>I'm <span>Raju Razz.</span></h1>
+                            <h1>Hello <br>I'm <span>Raju.</span></h1>
                             <br>
                             <div class="outline1">
                                 <p>
-                                    (I'm Web and Application Developer)
+                                    (I'm Web developer)
                                 </p>
                             </div>
                             <br>
-                            <!-- <h1>Hello <span>I'm Raju</span><br>from India.</h1> -->
+                            <!-- <h1>Hello <span>I'm Raju.</span><br>from India.</h1> -->
                             <div class="cvbtn">
-                                <a href="/images/raju-cv.pdf">Download CV</a>
+                                <a href="/My-portfolio-main/Raju Kumar Resume.pdf">Resume</a>
                             </div>
                         </div>
                         </div>
@@ -50,16 +50,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="about-col-1">
-                            <img src="user.jpg" alt="user1" width="300px" height="300px">
+                            <img src="/My-portfolio-main/formal img.jpg" alt="user1" width="300px" height="300px">
                             </div>
                             <div class="about-col-2">
                                 <h1 class="sub-title">About Me</h1>
                                 <p>Hey there! I'm Raju, currently pursuing my B.Tech in Computer Science at YMCA University (2022-2025). As a full-stack web and app developer,I've dived into several exciting projects, which you can explore in the projects section below.
                                 <br>
-                                    <p>Beyond coding, I find joy in listening to music and indulging in cricket matches, both watching and playing. Fun fact about me: I'm known for my bold and adventurous spirit, always ready to take on new challenges head-on.
-                                    Let's connect and explore the world of tech together!</p>
-                                    </p>
-                                    <br>
                                 <div class="tab-titles">
                                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                                     <p class="tab-links"onclick="opentab('experience')">Experience</p>
@@ -67,8 +63,7 @@
                                 </div>
                                 <div class="tab-contents active-tab" id="skills">
                                     <ul>
-                                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                                        <li><span>Web Development</span><br>Designing Web interfaces</li>
+                                        <li><span>Web Development</span><br>Building the beautiful Web Page</li>
                                         <li><span>App Development</span><br>Building Android/ios application</li>
                                     </ul>
                                 </div>
@@ -81,7 +76,6 @@
                                 </div>
                                 <div class="tab-contents" id="education">
                                     <ul>
-                                        <li><span>M.tech(CSE)</span><br>---- ---------(2025-27)</li>
                                         <li><span>B.tech(CSE)</span><br>J.C BOSE YMCA UNIVERSITY,FARIDABAD(2022-2025)</li>
                                         <li><span>Diploma(CSE)</span><br>GOVERNMENT POLYTECHNIC BARAUNI,BEGUSARAI.(2018-21)</li>
                                         <li><span>Schooling Education</span><br>M.R.J.D.I.COLLEGE,BISNUPUR,BEGUSARAI(2008-18)</li>
@@ -184,8 +178,8 @@
                             <div class="social-icons">
                                 <a href="https://twitter.com/rajukr_07"><i class="fab fa-twitter-square"></i></a>
                                 <a href="https://www.linkedin.com/in/rajukumar07/"><i class="fab fa-linkedin"></i></a>
-                                <a href="fbins.html"><i class="fab fa-facebook"></i></a>
-                                <a href="fbins.html"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/raaju_kr07/"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/raaju_kr07/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="contact-right">
@@ -209,53 +203,11 @@
                 <section>
                     <footer>
                         <div class="copyright">
-                            <p>©2024 Raju-Raj. All rights reserved.</p>
+                            <p>©2024 Raju-kumar. All rights reserved.</p>
                         </div>
                     </div>
                     </footer>
                 </section>
-                <script>
-                    var tablinks=document.getElementsByClassName("tab-links");
-                    var tabcontents=document.getElementsByClassName("tab-contents");
-                    function opentab(tabname){
-                        for(tablink of tablinks){
-                            tablink.classList.remove("active-link");
-                        }
-                        for(tabcontent of tabcontents){
-                            tabcontent.classList.remove("active-tab");
-                        }
-                        event.currentTarget.classList.add("active-link");
-                        document.getElementById(tabname).classList.add("active-tab");
-                    }
-                </script>
-                <!-- -----for openmenu----- -->
-                <script>
-                    var sidemenu=document.getElementById("sidemenu");
-                    function openmenu(){
-                        sidemenu.style.right="0";
-                    }
-                    function closemenu(){
-                        sidemenu.style.right="-200px";
-                    }
-                </script>
-                <!-- ----Script for webform------ -->
-                <script>
-                    const scriptURL = 'https://script.google.com/macros/s/AKfycbyKwwSudln7OWdkrnKYSyxvgbeGNURSWitPUZ819NjLcCIoIy_uSwCf6VIGnO8GDgAR/exec'
-                    const form = document.forms['submit-to-google-sheet']
-                    const msg=document.getElementById("msg")
-                  
-                    form.addEventListener('submit', e => {
-                      e.preventDefault()
-                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                        .then(response =>{
-                            msg.innerHTML="Message sent Successfully"
-                            setTimeout(function(){
-                                msg.innerHTML=""
-                            },5000)
-                            form.reset()
-                        })
-                        .catch(error => console.error('Error!', error.message))
-                    })
-                  </script>
+                <script src="index.js"></script>
         </body>
 </html>
